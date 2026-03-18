@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PandaNest — Rare & Premium Artisan Candle Collectibles. Limited pieces, handcrafted for true collectors.">
+  <title>PandaNest — Artisan Candle Collectibles</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════ NAVIGATION ═══════════════════ -->
+<nav>
+  <a href="#" class="nav-logo">
+    <img src="images/pandanestlogo.png" alt="PandaNest Logo" class="nav-logo-img">
+    <span class="nav-brand">Panda<span>Nest</span></span>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#collection">Collection</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <a href="https://instagram.com/panda_nest_" target="_blank" class="nav-dm-btn">DM to Order</a>
+</nav>
+
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section class="hero">
+
+  <!-- LEFT: text content (mobile = top, desktop = left) -->
+  <div class="hero-content">
+    <div class="hero-badge">✦ Rare &amp; Premium Collectibles</div>
+    <h1 class="hero-title">
+      Candles too<br>
+      <em>beautiful</em><br>
+      to burn
+    </h1>
+    <p class="hero-desc">
+      Artisan wax sculptures inspired by the foods you love — each piece a limited collectible crafted for true collectors.
+    </p>
+    <div class="hero-actions">
+      <a href="#collection" class="btn-primary">Shop Collection ✦</a>
+      <a href="#about" class="btn-ghost">Our Story →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">Ltd.</div>
+        <div class="hero-stat-label">Pieces Only</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">9+</div>
+        <div class="hero-stat-label">Designs</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">100%</div>
+        <div class="hero-stat-label">Handcrafted</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT: single image on desktop (hidden on mobile) -->
+  <img
+    class="hero-desktop-img"
+    src="images/Gemini_Generated_Image_rlzoi9rlzoi9rlzo.png"
+    alt="PandaNest Chai Biscuit Candle"
+    loading="eager"
+  >
+
+  <!-- Mobile-only horizontal scroll strip -->
+  <div class="hero-strip">
+    <div class="hero-strip-card">
+      <img src="images/Gemini_Generated_Image_rlzoi9rlzoi9rlzo.png" alt="Chai Biscuit Candle" loading="lazy">
+      <div class="hero-strip-label">Chai Biscuit</div>
+    </div>
+    <div class="hero-strip-card">
+      <img src="images/Gulabjamun.png" alt="Gulab Jamun Candle" loading="lazy">
+      <div class="hero-strip-label">Gulab Jamun</div>
+    </div>
+    <div class="hero-strip-card">
+      <img src="images/Gemini_Generated_Image_8dj2ki8dj2ki8dj2.png" alt="Ice Cream Candle" loading="lazy">
+      <div class="hero-strip-label">Ice Cream</div>
+    </div>
+    <div class="hero-strip-card">
+      <img src="images/Mil.png" alt="Mango Shake Candle" loading="lazy">
+      <div class="hero-strip-label">Mango Shake</div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════ MARQUEE ═══════════════════ -->
+<div class="marquee-bar" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="marquee-item"><span class="dot"></span>Rare &amp; Premium</span>
+    <span class="marquee-item"><span class="dot"></span>Limited Pieces Only</span>
+    <span class="marquee-item"><span class="dot"></span>DM to Order</span>
+    <span class="marquee-item"><span class="dot"></span>Cards · Figures · Hotwheels</span>
+    <span class="marquee-item"><span class="dot"></span>For True Collectors</span>
+    <span class="marquee-item"><span class="dot"></span>Artisan Candles</span>
+    <span class="marquee-item"><span class="dot"></span>Rare &amp; Premium</span>
+    <span class="marquee-item"><span class="dot"></span>Limited Pieces Only</span>
+    <span class="marquee-item"><span class="dot"></span>DM to Order</span>
+    <span class="marquee-item"><span class="dot"></span>Cards · Figures · Hotwheels</span>
+    <span class="marquee-item"><span class="dot"></span>For True Collectors</span>
+    <span class="marquee-item"><span class="dot"></span>Artisan Candles</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════ COLLECTION ═══════════════════ -->
+<section class="section collection" id="collection">
+  <div class="collection-header reveal">
+    <div>
+      <div class="section-label">The Collection</div>
+      <h2 class="section-title">Candles worth <em>keeping</em></h2>
+      <p class="section-sub">Every sculpt is limited — once gone, they're gone.</p>
+    </div>
+  </div>
+
+  <!-- Filter pills -->
+  <div class="filter-row reveal">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="sweet">Sweet</button>
+    <button class="filter-btn" data-filter="savoury">Savoury</button>
+    <button class="filter-btn" data-filter="drink">Drinks</button>
+  </div>
+
+  <!-- Products grid -->
+  <div class="products-grid" id="productsGrid">
+
+    <!-- 1. Chai Biscuit — ₹120 -->
+    <div class="product-card featured" data-cat="drink">
+      <div class="product-img-wrap">
+        <img src="images/Gemini_Generated_Image_rlzoi9rlzoi9rlzo.png" alt="Chai Biscuit Candle" loading="lazy">
+        <span class="limited-badge">Ltd. Ed.</span>
+        <button class="wish-btn" aria-label="Wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <div class="product-stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+          <span class="review-count">(84)</span>
+        </div>
+        <div class="product-name">Chai &amp; Parle-G Candle</div>
+        <div class="product-bottom">
+          <div class="product-price">₹120</div>
+          <button class="overlay-btn">DM to Order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Gulab Jamun — ₹299 -->
+    <div class="product-card" data-cat="sweet">
+      <div class="product-img-wrap">
+        <img src="images/Gulabjamun.png" alt="Gulab Jamun Candle" loading="lazy">
+        <span class="limited-badge">Ltd. Ed.</span>
+        <button class="wish-btn" aria-label="Wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <div class="product-stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+          <span class="review-count">(61)</span>
+        </div>
+        <div class="product-name">Gulab Jamun Candle</div>
+        <div class="product-bottom">
+          <div class="product-price">₹299</div>
+          <button class="overlay-btn">DM to Order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Mango Shake — ₹299 -->
+    <div class="product-card" data-cat="drink">
+      <div class="product-img-wrap">
+        <img src="images/Mil.png" alt="Mango Shake Candle" loading="lazy">
+        <span class="limited-badge">Ltd. Ed.</span>
+        <button class="wish-btn" aria-label="Wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <div class="product-stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star half">★</span>
+          <span class="review-count">(47)</span>
+        </div>
+        <div class="product-name">Mango Shake Candle</div>
+        <div class="product-bottom">
+          <div class="product-price">₹299</div>
+          <button class="overlay-btn">DM to Order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Ice Cream Bowl — ₹299 -->
+    <div class="product-card" data-cat="sweet">
+      <div class="product-img-wrap">
+        <img src="images/Gemini_Generated_Image_8dj2ki8dj2ki8dj2.png" alt="Ice Cream Bowl Candle" loading="lazy">
+        <span class="limited-badge">Ltd. Ed.</span>
+        <button class="wish-btn" aria-label="Wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <div class="product-stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+          <span class="review-count">(92)</span>
+        </div>
+        <div class="product-name">Ice Cream Bowl Candle</div>
+        <div class="product-bottom">
+          <div class="product-price">₹299</div>
+          <button class="overlay-btn">DM to Order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Rasmalai — ₹299 -->
+    <div class="product-card" data-cat="sweet">
+      <div class="product-img-wrap">
+        <img src="images/Gemini_Generated_Image_mccxmsmccxmsmccx.png" alt="Rasmalai Candle" loading="lazy">
+        <span class="limited-badge">Ltd. Ed.</span>
+        <button class="wish-btn" aria-label="Wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <div class="product-stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star half">★</span>
+          <span class="review-count">(38)</span>
+        </div>
+        <div class="product-name">Rasmalai Candle</div>
+        <div class="product-bottom">
+          <div class="product-price">₹299</div>
+          <button class="overlay-btn">DM to Order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Rasgulla — ₹299 -->
+    <div class="product-card" data-cat="sweet">
+      <div class="product-img-wrap">
+        <img src="images/Gemini_Generated_Image_auxe15auxe15auxe.png" alt="Rasgulla Candle" loading="lazy">
+        <span class="limited-badge">Ltd. Ed.</span>
+        <button class="wish-btn" aria-label="Wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <div class="product-stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+          <span class="review-count">(55)</span>
+        </div>
+        <div class="product-name">Rasgulla Candle</div>
+        <div class="product-bottom">
+          <div class="product-price">₹299</div>
+          <button class="overlay-btn">DM to Order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. Pani Puri — ₹220 -->
+    <div class="product-card" data-cat="savoury">
+      <div class="product-img-wrap">
+        <img src="images/Gemini_Generated_Image_238yc4238yc4238y.png" alt="Pani Puri Candle" loading="lazy">
+        <span class="limited-badge">Ltd. Ed.</span>
+        <button class="wish-btn" aria-label="Wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <div class="product-stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star half">★</span>
+          <span class="review-count">(29)</span>
+        </div>
+        <div class="product-name">Pani Puri Candle</div>
+        <div class="product-bottom">
+          <div class="product-price">₹220</div>
+          <button class="overlay-btn">DM to Order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8. Gajar Halwa — ₹299 -->
+    <div class="product-card" data-cat="sweet">
+      <div class="product-img-wrap">
+        <img src="images/GajarHalwa.png" alt="Gajar Halwa Candle" loading="lazy">
+        <span class="limited-badge">Ltd. Ed.</span>
+        <button class="wish-btn" aria-label="Wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <div class="product-stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+          <span class="review-count">(43)</span>
+        </div>
+        <div class="product-name">Gajar Halwa Candle</div>
+        <div class="product-bottom">
+          <div class="product-price">₹299</div>
+          <button class="overlay-btn">DM to Order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9. Veg Biryani — ₹299 -->
+    <div class="product-card" data-cat="savoury">
+      <div class="product-img-wrap">
+        <img src="images/Gemini_Generated_Image_js8wu5js8wu5js8w.png" alt="Veg Biryani Candle" loading="lazy">
+        <span class="limited-badge">Ltd. Ed.</span>
+        <button class="wish-btn" aria-label="Wishlist">♡</button>
+      </div>
+      <div class="product-info">
+        <div class="product-stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star half">★</span>
+          <span class="review-count">(51)</span>
+        </div>
+        <div class="product-name">Veg Biryani Candle</div>
+        <div class="product-bottom">
+          <div class="product-price">₹299</div>
+          <button class="overlay-btn">DM to Order</button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /products-grid -->
+</section>
+
+
+<!-- ═══════════════════ FEATURES ═══════════════════ -->
+<div class="features reveal">
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">✦</div>
+      <div class="feature-title">Rare &amp; Premium</div>
+      <div class="feature-desc">Limited sculpts — once sold out, never restocked.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🐼</div>
+      <div class="feature-title">For Collectors</div>
+      <div class="feature-desc">Curated for those who appreciate the extraordinary.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📦</div>
+      <div class="feature-title">DM to Order</div>
+      <div class="feature-desc">Reach us directly on Instagram for personal service.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🕯️</div>
+      <div class="feature-title">Handcrafted Wax</div>
+      <div class="feature-desc">Every detail sculpted by hand — disturbingly real.</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════ ABOUT ═══════════════════ -->
+<div class="about" id="about">
+  <div class="about-image">
+    <img src="images/Gemini_Generated_Image_8dj2ki8dj2ki8dj2.png" alt="PandaNest Candle Collection" loading="lazy">
+  </div>
+  <div class="about-content reveal">
+    <div class="section-label">Our Story</div>
+    <h2 class="section-title">Memories <em>sculpted</em> in wax</h2>
+    <blockquote class="about-quote">
+      "We craft things too <span class="highlight">beautiful to burn</span> — too precious to forget."
+    </blockquote>
+    <p class="about-text">
+      PandaNest was born from a love for things that stand apart. Every candle is crafted to look so impossibly real you'll find yourself staring at it instead of lighting it.<br><br>
+      From the golden shimmer of a gulab jamun to the steaming rim of a chai glass — our candles are love letters to the everyday moments we hold dear.
+    </p>
+    <a href="https://instagram.com/panda_nest_" target="_blank" class="about-link">
+      Follow us on Instagram →
+    </a>
+  </div>
+</div>
+
+
+<!-- ═══════════════════ TESTIMONIALS ═══════════════════ -->
+<div class="testimonials-section reveal">
+  <div class="section-label">Collector Love</div>
+  <h2 class="section-title">What they're <em>saying</em></h2>
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"I literally couldn't light the chai candle. It looked TOO real — my family thought it was actual chai for a full five minutes."</p>
+      <div class="testimonial-author">— @mumbai_collector</div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"The gulab jamun candle sits on my shelf like a trophy. The glaze, the colour, everything. Absolute gem from PandaNest."</p>
+      <div class="testimonial-author">— @rare.finds.india</div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"Gifted the rasgulla set to my mom — she literally yelled. She thought they were real sweets. Pure magic from this brand."</p>
+      <div class="testimonial-author">— @sweetloot_collector</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════ CTA BANNER ═══════════════════ -->
+<div class="cta-banner reveal" id="contact">
+  <div class="section-label">Limited Drops</div>
+  <h2 class="section-title">Don't miss the <em>next drop</em></h2>
+  <p class="section-sub">Limited pieces. No restocks. DM us on Instagram to reserve yours before they're gone forever.</p>
+  <a href="https://instagram.com/panda_nest_" target="_blank" class="cta-insta">
+    📸 Follow @panda_nest_
+  </a>
+</div>
+
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer>
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <div class="footer-brand-logo">
+        <div class="footer-logo-mark">
+            <img src="images/pandanestlogo.png" alt="PandaNest Logo" style="height:44px;width:auto;object-fit:contain;display:block;">
+          </div>
+        <div class="footer-brand-name">Panda<span>Nest</span></div>
+      </div>
+      <p class="footer-desc">Rare &amp; premium artisan candles for true collectors. Limited pieces. Extraordinary craftsmanship.</p>
+      <div class="footer-social">
+        <a href="https://instagram.com/panda_nest_" target="_blank" aria-label="Instagram">📷</a>
+        <a href="#" aria-label="WhatsApp">💬</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+      </div>
+    </div>
+
+    <div class="footer-links-grid">
+      <div class="footer-col">
+        <h4>Collection</h4>
+        <ul>
+          <li><a href="#collection">Sweet Candles</a></li>
+          <li><a href="#collection">Savoury Candles</a></li>
+          <li><a href="#collection">Drink Candles</a></li>
+          <li><a href="#collection">Limited Editions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Store</h4>
+        <ul>
+          <li><a href="#">Cards</a></li>
+          <li><a href="#">Figures</a></li>
+          <li><a href="#">Hotwheels</a></li>
+          <li><a href="#">New Arrivals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://instagram.com/panda_nest_" target="_blank">@panda_nest_</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#">DM to Order</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div><!-- /footer-inner -->
+
+  <div class="footer-bottom">
+    <span>© 2025 PandaNest Collectibles. All rights reserved.</span>
+    <span>Crafted with ♡ for collectors</span>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════ SCRIPTS ═══════════════════ -->
+<script>
+  /* ─ Scroll Reveal ─ */
+  const reveals = document.querySelectorAll('.reveal');
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        revealObserver.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => revealObserver.observe(el));
+
+  /* ─ Filter buttons ─ */
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const productCards = document.querySelectorAll('.product-card');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.dataset.filter;
+      productCards.forEach(card => {
+        if (filter === 'all' || card.dataset.cat === filter) {
+          card.style.display = '';
+          card.style.animation = 'fadeUp 0.4s ease both';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  /* ─ Wishlist toggle ─ */
+  document.querySelectorAll('.wish-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      btn.classList.toggle('active');
+      btn.textContent = btn.classList.contains('active') ? '♥' : '♡';
+    });
+  });
+
+  /* ─ Nav shrink on scroll ─ */
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    nav.style.boxShadow = window.scrollY > 10
+      ? '0 2px 20px rgba(0,0,0,0.1)'
+      : 'none';
+  }, { passive: true });
+
+  /* ─ Smooth scroll ─ */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
